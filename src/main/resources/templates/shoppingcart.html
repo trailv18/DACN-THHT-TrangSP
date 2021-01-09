@@ -6,7 +6,7 @@
 <body class="d-flex flex-column">
   <div th:replace="common/header :: navbar"> </div>
 
-  <div class="container page-content">       
+  <div class="container page-content py-5">       
     <form th:action="@{/shopping-cart/update-item}" method="post">   
     <input hidden="hidden" id="newqty" th:name="qty">    
     <input hidden="hidden" id="newid" th:name="id">     
